@@ -1,0 +1,45 @@
+body {background-color: black;}
+
+@font-face {
+    font-family:"ura font";
+    src: url("PixelifySans-VariableFont_wght.ttf") format("truetype");
+}
+@font-face {
+    font-family:"uraa font";
+    src: url("Stifly-8MGpA.ttf") format("truetype");
+}
+
+#h21{
+    color: white;
+    font-family:"uraa font";
+}
+#h11{
+    color: white;
+    text-align: center;
+    font-family:"uraa font";
+    font-size: 50;
+}
+#div2 {
+    text-align: right;
+    position: absolute;
+    top: 137px;
+    right: 1;
+    font-size: 13;
+    font-family:"ura font";
+    color: white;
+    width: 40%;
+}
+#div1 {
+    font-size: 13;
+    font-family:"ura font";
+    color: white;
+    width: 40%;
+}
+/*
+#img1 {
+    position: absolute;
+    top: 137px;
+    left: 300;
+    width: 70%;height: 100px;;
+}
+ */

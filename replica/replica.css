@@ -13,7 +13,7 @@
 body {
     background-color:black;
     height: 2000px;
-    overflow-y: hidden;
+    overflow-y:hidden;
     overflow-x: hidden;
 }
 section {
@@ -49,7 +49,7 @@ span {
     display: flex;
     flex-direction:row;
 }
-#music-titles > section { 
+#music-titles > div { 
     flex: 1 0 auto;
     border-radius: 25px;
  }

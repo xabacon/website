@@ -12,6 +12,9 @@
 }
 body {
     background-color:black;
+    height: 2000px;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 section {
     color: white;

@@ -33,40 +33,40 @@ span {
     text-align: center;
     color: #00fff3;
 }
-#blue {
+#blue-text {
     color: blue;
 }
-#red {
+#red-text {
     color: red;
 }
-#interests{
+#interests-header{
     text-align: center;
 }
- #music {
+ #music-header {
     text-align: center;
 }
-#ids {
+#music-titles {
     display: flex;
     flex-direction:row;
 }
-#ids > section { 
+#music-titles > section { 
     flex: 1 0 auto;
     border-radius: 25px;
  }
 
 
-.VS { 
+.v-separator { 
     margin: 0 20px 0 20px;
     width: 10px;
 }
-.HS {
+.h-separator {
     height: 10px;
 }
-.basic {
+.information_header {
     color: #7853cf;
     font-family: Sans pixel;
 }
-.lines {
+.border {
     border: none;
     background: repeating-linear-gradient( to right,
     #7853cf 0%, #7853cf 20%, 
@@ -76,8 +76,8 @@ span {
         #7853cf 80%, #7853cf 100%);
     background-size: 10px 100%;
 }
-.HC > section { flex: 1 0 auto; }
-.HC {
+.horizontal-container > section { flex: 1 0 auto; }
+.horizontal-container  {
     display: flex;
     flex-direction: row;
 }
@@ -86,7 +86,7 @@ span {
     flex-direction: column;
 }
 
-.msec {
+.music-section {
     display: flex;
     flex-direction: column;
     font-family: pixel;

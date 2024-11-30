@@ -1,43 +1,64 @@
-body {background-color: black;}
-
 @font-face {
-    font-family:"ura font";
+    font-family: "Sans pixel";
     src: url("PixelifySans-VariableFont_wght.ttf") format("truetype");
 }
 @font-face {
-    font-family:"uraa font";
+    font-family: "stifly";
     src: url("Stifly-8MGpA.ttf") format("truetype");
 }
-
-#h21{
-    color: white;
-    font-family:"uraa font";
+@font-face {
+        font-family: "pixel";
+        src: url("MegamaxJonathanToo-YqOq2.ttf") format("truetype");
 }
-#h11{
+body {
+    background-color:black;
+}
+section {
     color: white;
+}
+h3 {
+    font-family:pixel;
+}
+span {
+    font-size: 15px;
+    font-family:sans pixel;
+}
+#title {
+    color: white;
+    font-family: stifly;
+    font-size: 50px;
     text-align: center;
-    font-family:"uraa font";
-    font-size: 50;
+    color: #00fff3;
 }
-#div2 {
-    text-align: right;
-    position: absolute;
-    top: 137px;
-    right: 1;
-    font-size: 13;
-    font-family:"ura font";
-    color: white;
+#blue {
+    color: blue;
 }
-#div1 {
-    font-size: 13;
-    font-family:"ura font";
-    color: white;
+#red {
+    color: red;
 }
-/*
-#img1 {
-    position: absolute;
-    top: 137px;
-    left: 300;
-    width: 70%;height: 100px;;
+.VS { 
+    margin: 0 20px 0 20px;
+    width: 10px;
 }
- */
+.HS {
+    height: 10px;
+}
+.basic {
+    color: #7853cf;
+    font-family: Sans pixel;
+}
+.lines {
+    border: none;
+    background: repeating-linear-gradient( to right,
+    #7853cf 0%, #7853cf 20%, 
+        transparent 20%, transparent 40%,
+        #7853cf 40%, #7853cf 60%, 
+        transparent 60%, transparent 80%, 
+        #7853cf 80%, #7853cf 100%);
+    background-size: 10px 100%;
+}
+.HC > section { flex: 1 0 auto; }
+.HC {
+    display: flex;
+    flex-direction: row;
+}

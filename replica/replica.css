@@ -42,14 +42,14 @@ span {
 #test{
     text-align: center;
 }
- #test1 {
+ #music {
     text-align: center;
 }
-#test2 {
+#ids {
     display: flex;
     flex-direction:row;
 }
-#test2 > section { 
+#ids > section { 
     flex: 1 0 auto;
     border-radius: 25px;
  }

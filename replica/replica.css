@@ -106,6 +106,7 @@ p {
 #interests-header{
     text-align: center;
 }
+
  #music-header {
     text-align: center;
 }
@@ -182,4 +183,7 @@ p {
 .music-iframe{
     border-radius: 25px;
     padding-left: 25%;
+}
+.centered > span {
+    font-size: 30px;
 }

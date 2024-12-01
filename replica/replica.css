@@ -4,34 +4,56 @@
 }
 @font-face {
     font-family: "stifly";
-    src: url("Stifly-8MGpA.ttf") format("truetype");
+    src: url("HACKED.ttf") format("truetype");
 }
 @font-face {
-        font-family: "pixel";
-        src: url("MegamaxJonathanToo-YqOq2.ttf") format("truetype");
+        font-family: "header-footer";
+        src: url("AmazS.T.A.L.K.E.R.v.3.0.ttf") format("truetype");
 }
+
+
 body {
     background-color:black;
     height: 2000px;
     overflow-y:hidden;
     overflow-x: hidden;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
 }
 section {
     color: white;
 }
 h3 {
-    font-family:pixel;
+    font-family:Sans pixel;
+    font-size: 25px;
 }
 span {
     font-size: 15px;
     font-family:sans pixel;
 }
-#title {
+a {
+    font-family:stifly;
     color: white;
-    font-family: stifly;
+    font-size: 45px;
+    border-style: solid;
+    border-radius: 10px;
+    animation-name: lightup;
+    animation-duration: 5s;
+    text-decoration: none;
+    border-color: black;
+    
+}
+a:hover {
+    border-color: purple;
+    transition-duration: 0.5s;
+}
+#title {
+    color: skyblue;
+    font-family: header-footer;
     font-size: 50px;
     text-align: center;
-    color: #00fff3;
 }
 #blue-text {
     color: blue;
@@ -48,6 +70,7 @@ span {
 #music-titles {
     display: flex;
     flex-direction:row;
+    flex-wrap: wrap;
 }
 #music-titles > div { 
     flex: 1 0 auto;
@@ -80,15 +103,23 @@ span {
 .horizontal-container  {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .centered {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
 }
 
 .music-section {
     display: flex;
     flex-direction: column;
     font-family: pixel;
+    flex-wrap: wrap;
 }
+.hyperlinks {
+    width: 900px;
+    align-self: center;
 
+}

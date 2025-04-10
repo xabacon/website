@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "signature";
+    src: url("signature.otf") format("truetype");
+}
+@font-face {
+    font-family: "ancient";
+    src: url("ancient.ttf") format("truetype");
+}
+.page{
+    background-color: gainsboro;
+}
+.header {
+    text-align: center;
+    font-size: 40px;
+    background-color: lightblue;
+    border-radius: 5px;
+    border-style:groove;
+    height: 130;
+    box-shadow: 5px 5px 15px 5px lightcyan;
+}
+.header > p {
+    font-family:"signature";
+    height: 75;
+}
+.right-side-tab {   
+    position: relative;
+    top: 5px;
+    background-color: lightblue;
+    width: 100;
+    align-self: baseline;
+    border-radius: 5px;
+    border-style: groove;
+    box-shadow: 5px 5px 9px 5px lightcyan;
+}
+#text-right-tab {
+    font-family:"ancient";
+    font-size: 20px;
+}
+#author {
+    position:relative;
+    bottom: 55;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15;
+}

@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "Coolvecita";
+    src: url("Coolvecita.otf") format("truetype");
+}
+body {
+    background-color:#121212 ;
+    overflow-y: hidden;
+}
+form{
+    position: static;
+    margin:auto;
+    border-style: ridge;
+    border-radius: 10px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    width: fit-content;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 25px;
+    color: gray;
+    border-color: orange;
+    box-shadow: 0px 0px 30px 15px #b54800;
+}
+input {
+    display: flex;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    font-family: "Coolvecita";
+    font-weight: bold;
+    background-color:#121212 ;
+    border-style: ridge;
+    border-color:black;
+    border-width: 3px;
+    color: white;
+}
+#title {
+    font-size: large;
+    text-align: center;
+    font-family:"Coolvecita";
+    font-size: 30px;
+}
+#padder{
+    padding-top: 10%;
+}
+.hyperlinks{
+    display: flex;
+    justify-content: space-between;
+
+}
+a {
+    color: orange;
+    font-family: "Coolvecita";
+}
+button {
+    border-radius: 5px;
+    font-family: "Coolvecita";
+    font-weight: bold;
+    background-color:#121212 ;
+    border-style: ridge;
+    border-color:black;
+    border-width: 3px;
+    color: gray;
+}

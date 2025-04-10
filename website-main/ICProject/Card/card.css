@@ -1,0 +1,16 @@
+#card {
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    max-width: fit-content;
+    border-radius: 10px;
+}
+img {
+    max-width: 25vw;
+    border-radius: 10px;
+}
+
+div:hover {
+    box-shadow: 10px 10px 10px black inset;
+}

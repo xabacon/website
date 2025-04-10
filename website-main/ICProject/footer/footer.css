@@ -1,0 +1,23 @@
+body{
+    background-color: #282828;
+    overflow-x: hidden;
+}
+#navigation{
+    display: flex;
+    position:absolute;
+    background-color:#504945;
+    bottom:0;
+    width: 100vw;
+    height: 8vh;
+}
+.buttons {
+    padding-right:15vw;
+}
+#icon {
+    justify-content: right;
+}
+button {
+    height: 8vh;
+    border: 0;
+    background-color:#504945;
+}
